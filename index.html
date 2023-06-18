@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Secret </title>
+     <style>
+
+    body {
+      background-color: rgba(5, 3, 3, 0.897);
+      display: grid;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 0px;
+      padding: 10px;
+    }
+
+    .container {
+     text-align: start;
+    }
+
+    h3 {
+     font-size: 18px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(252, 248, 248);
+     opacity: 10%;
+    }
+
+    p {
+     font-size: 18px;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(252, 248, 248);
+     opacity: 10%; 
+    }
+
+    .grid-container {
+      display: grid;
+      justify-content: space-evenly;
+      align-items: center;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 50px;
+      margin-top: 0px;
+    }
+
+    .grid-item {
+      position: relative;
+      width: 100px;
+      height: 80px;
+      background-color: #68b3df;
+      padding: 8px;
+      text-align: center;
+      border-radius: 10px;
+      background: linear-gradient(to bottom, #68b3df 80%, white 20%);
+    }
+
+    .grid-item .text-bottom {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 5px;
+      color: black;
+      font-size: 10px;
+    }
+
+    .grid-item img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    
+
+    @media screen and (max-width: 1024px) {
+      .grid-container {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+      .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        }
+    }
+
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h3> Secrets </h3>
+        <div class="grid-container">
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret One </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Two </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Three </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Four </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Five </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Six </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Seven </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Eight </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Nine </div>
+            </div>
+            <div class="grid-item">
+             <img src="placeholder.png" alt="ph">
+             <div class="text-bottom"> Secret Ten </div>
+            </div>
+        </div>
+        <p>A secret is information kept hidden.Something that is kept hidden or unexplained-mystery.<br>Something that is kept from the knowledge of others or shared only confidentially with a few.</p>
+    </div>     
+</body>
+</html>
